@@ -1,0 +1,10 @@
+- id: system-rye
+  name: system-rye
+  entry: rye --version
+  language: system
+  pass_filenames: false
+- id: custom-rye
+  name: custom-rye
+  entry: custom-rye --version
+  language: python
+  pass_filenames: false
